@@ -6,8 +6,6 @@ import java.awt.FlowLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class Ventana extends JFrame {
@@ -15,7 +13,7 @@ public class Ventana extends JFrame {
     //CONSTRUCTOR
     public Ventana() {
 
-        this.setSize(350,400); //establecemos tamaño de la ventana.
+        this.setSize(350, 400); //establecemos tamaño de la ventana.
         //setLocation (500,140);//ESTABLECER POSICIÓN INICIAL DE LA VENTANA
         setTitle("          FORMULARIO CLASE PERSONA    "); // ESTABLECEMOS EL TITULO DE LA VENTANA
         //setBounds(100, 200, 300, 500); //POSICION INICAL Y TAMAÑO DE LA PANTALLA
@@ -56,21 +54,12 @@ public class Ventana extends JFrame {
         cp.add(texto6);
         cp.add(etiqueta7);
         cp.add(texto7);
-        
+
         JButton botong = new JButton("Guardar");
         cp.add(botong);
         JButton botons = new JButton("Salir");
         cp.add(botons);
 
-        
     }
 
-    
-   
-
-   
-
-                        
 }
-    
-    
